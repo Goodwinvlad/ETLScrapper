@@ -25,22 +25,25 @@
 2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>
 Устанавливаем Python пакеты,в терминале запустить следующую команду::
 
-<code> pip install requests </code></p>
-<code> pip install BeautifulSoup </code></p>
-<code> pip install pandas </code></p>
-<code> pip install datetime </code></p>
-<code> pip install psycopg2 </code></p>
-<code> pip install mysql.connector </code></p>
-<code> pip install warnings </code>
-
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-3. Запись данных по городам из Википедии
+3. Запись данных по городам из Википедии в DataFrame и запись в базу данных
 <code> python cities_stat_from_Wikipedia.ipynb </code>
 
 ### Результат:
-
+DataFrame со списком городов. Таблица записана на поднятую БД postgres в Docker.  
+Размер (8,10)
+city                  object
+Country               object
+Founded               object
+Climate               object
+UTC                    int64
+Population             int64
+Phonecode             object
+Postcode              object
+Date          datetime64[ns]
+Timestamp            float64
 
 
