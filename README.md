@@ -22,7 +22,8 @@
 
 <code> docker -compose up d</code>
 
-2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>Устанавливаем следующие пакеты:
+2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>
+Устанавливаем Python пакеты,в терминале запустить следующую команду::
 
 <code> pip install requests </code></p>
 <code> pip install BeautifulSoup </code></p>
@@ -32,9 +33,14 @@
 <code> pip install mysql.connector </code></p>
 <code> pip install warnings </code>
 
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+
 3. Запись данных по городам из Википедии
 <code> python cities_stat_from_Wikipedia.ipynb </code>
 
-4. Результат 
+### Результат:
+
 
 
