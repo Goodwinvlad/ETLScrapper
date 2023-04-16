@@ -35,15 +35,15 @@ RUN pip install --no-cache-dir -r requirements.txt
 ### Результат:
 DataFrame со списком городов. Таблица записана на поднятую БД postgres в Docker.  
 Размер (8,10)
-city                  object
-Country               object
-Founded               object
-Climate               object
-UTC                    int64
-Population             int64
-Phonecode             object
-Postcode              object
-Date          datetime64[ns]
-Timestamp            float64
-
-
+| Column        | Type            |
+|:------------- |:---------------:|
+| city          | object          |
+| Country       | object          |
+| Founded       | object          |
+| Climate       | object          |
+| UTC           | int64           |
+| Population    | int64           |
+| Phonecode     | object          |
+| Postcode      | object          |
+| Date          | datetime64[ns]  |
+| Timestamp     | float64         |
