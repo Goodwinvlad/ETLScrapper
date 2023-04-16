@@ -33,8 +33,8 @@
 <code> pip install warnings </code>
 
 3. Запись данных по городам из Википедии
-<code> python cities_stat_from_Wikipedia.py </code>
+<code> python cities_stat_from_Wikipedia.ipynb </code>
 
-
+4. Результат 
 
 
