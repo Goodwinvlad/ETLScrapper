@@ -24,11 +24,12 @@
 <code>wsl --set-default-version 2</code>
 3. Установить платформу [Docker Compose](https://docs.docker.com/get-docker/ "Docker Compose")
 4. Установить дистрибутив языков программирования Python [Anaconda](https://www.anaconda.com/download/ "Anaconda")
-5. 
+5. Скачать файлы .env и docker-compose.yml. Из директории, со скаченными файлами в терминале запустить следующую команду:
+   <code> docker -compose up d</code>
 
 Установка локального инстанса posgres, в терминале запустить следующую команду:
 
-<code> docker -compose up d</code>
+<code>docker-compose up</code>
 
 2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>
 Устанавливаем Python пакеты,в терминале запустить следующую команду::
