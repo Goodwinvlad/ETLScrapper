@@ -18,8 +18,13 @@
 
 ### Решение:
 
-1. Установить платформу [Docker Compose](https://docs.docker.com/get-docker/ "Docker Compose")
-2. Установить дистрибутив языков программирования Python [Anaconda](https://www.anaconda.com/download/ "Anaconda")
+1. Установить подсистему Windows для Linux WSL через терминал
+<code>wsl --install</code>
+2. Запустить версию WSL 2
+<code>wsl --set-default-version 2</code>
+3. Установить платформу [Docker Compose](https://docs.docker.com/get-docker/ "Docker Compose")
+4. Установить дистрибутив языков программирования Python [Anaconda](https://www.anaconda.com/download/ "Anaconda")
+5. 
 
 Установка локального инстанса posgres, в терминале запустить следующую команду:
 
