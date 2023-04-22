@@ -38,8 +38,8 @@
 10. Запускаем код **cities_stat_from_Wikipedia.ipynb**
 
 ### Результат:
-DataFrame со списком городов. Таблица записана на поднятую БД postgres в Docker.  
-Размер (8,10)
+DataFrame со списком городов. Таблица записана на поднятую БД postgres в Docker. Так же реализовано обращение к БД и запись в DataFrame в Notebook.
+Размер DataFrame (8 строк, 10 колонок)
 | Column        | Type            |
 |:------------- |:---------------:|
 | city          | object          |
