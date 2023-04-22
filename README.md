@@ -35,28 +35,7 @@
 9. Запускаем Jypiter Notebook
 10. Запускаем команду и устанавливаем зависимости для проекта</p> 
 <code>pip install -r requirements.txt</code>
-10. 
-   
-
-
-
-
-
-
-
-
-
-
-
-2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>
-Устанавливаем Python пакеты,в терминале запустить следующую команду::
-
-COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
-
-
-3. Запись данных по городам из Википедии в DataFrame и запись в базу данных
-<code> python cities_stat_from_Wikipedia.ipynb </code>
+10. Запускаем код **cities_stat_from_Wikipedia.ipynb**
 
 ### Результат:
 DataFrame со списком городов. Таблица записана на поднятую БД postgres в Docker.  
