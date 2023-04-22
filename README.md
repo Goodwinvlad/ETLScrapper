@@ -25,7 +25,11 @@
 3. Установить платформу [Docker Compose](https://docs.docker.com/get-docker/ "Docker Compose")
 4. Установить дистрибутив языков программирования Python [Anaconda](https://www.anaconda.com/download/ "Anaconda")
 5. Скачать файлы .env и docker-compose.yml. Из директории, со скаченными файлами в терминале запустить следующую команду:</p>
-   <code> docker-compose up</code>
+   <code> docker-compose up</code>. 
+   После выполнения команды в Docker будут созданы и запущены контейнеры pgadmin_post_container и postgres_post_container с соотвествующими образами
+   postrges-pgadmin_post и postrges-postgres_post.
+6. По ссылке пройдем [pgAdmin](http://localhost:5050/browser/#) - инстурмент для управления PostgreSQL через веб-интерфейс.
+   
 
 
 2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>
