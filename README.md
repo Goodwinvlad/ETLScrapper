@@ -28,8 +28,19 @@
    <code> docker-compose up</code>. 
    После выполнения команды в Docker будут созданы и запущены контейнеры pgadmin_post_container и postgres_post_container с соотвествующими образами
    postrges-pgadmin_post и postrges-postgres_post.
-6. По ссылке пройдем [pgAdmin](http://localhost:5050/browser/#) - инстурмент для управления PostgreSQL через веб-интерфейс.
+6. По ссылке пройдем [pgAdmin](http://localhost:5050/browser/#) - инстурмент для управления PostgreSQL через веб-интерфейс.</p> 
+   Для входа используем данные из файла .env</p>  PGADMIN_DEFAULT_EMAIL=*******   PGADMIN_DEFAULT_PASSWORD=*****
+7. Создадим сервер со следующими параметрами:</p>  Name = DB_1</p>  Host_name = postgres_post</p>  port = 5432</p>  Maintenance_database = db_test</p>  Username = postgres</p> 
    
+
+
+
+
+
+
+
+
+
 
 
 2. Установка дистрибутива Anaconda3 , далее в Anaconda Navigator запустить приложение Jupyter Notebook.</p>
