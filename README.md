@@ -18,7 +18,9 @@
 
 ### Решение:
 
-1. Установка локального инстанса posgres, в терминале запустить следующую команду:
+1. Установить платформу Docker Compose (https://docs.docker.com/get-docker/ "Docker Compose")
+
+Установка локального инстанса posgres, в терминале запустить следующую команду:
 
 <code> docker -compose up d</code>
 
