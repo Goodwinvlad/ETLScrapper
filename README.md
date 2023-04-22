@@ -31,6 +31,7 @@
 6. По ссылке пройдем [pgAdmin](http://localhost:5050/browser/#) - инстурмент для управления PostgreSQL через веб-интерфейс.</p> 
    Для входа используем данные из файла .env</p>  PGADMIN_DEFAULT_EMAIL=*******   PGADMIN_DEFAULT_PASSWORD=*****
 7. Создадим сервер со следующими параметрами:</p>  Name = DB_1</p>  Host_name = postgres_post</p>  port = 5432</p>  Maintenance_database = db_test</p>  Username = postgres</p> 
+8. В директории DB_1/Databases/db_test/Schemas/public/Tables в [pgAdmin](http://localhost:5050/browser/#) хранятся таблицы
    
 
 
