@@ -18,7 +18,8 @@
 
 ### Решение:
 
-1. Установить платформу Docker Compose (https://docs.docker.com/get-docker/ "Docker Compose")
+1. Установить платформу [Docker Compose](https://docs.docker.com/get-docker/ "Docker Compose")
+2. Установить дистрибутив языков программирования Python [Anaconda](https://www.anaconda.com/download/ "Anaconda")
 
 Установка локального инстанса posgres, в терминале запустить следующую команду:
 
